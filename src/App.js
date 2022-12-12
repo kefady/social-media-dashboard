@@ -126,7 +126,6 @@ function App() {
             />
             <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 text-center mb-1 dark:text-white">{instagramData == null ? 0 : instagramData[0].follower_count}</h1>
             <h2 className="uppercase text-md mb-2 text-center dark:text-slate-300">Followers</h2>
-            <button className="text-xl font-bold text-white h-10 bg-slate-400 rounded-lg md:hidden hover:opacity-50 transition-opacity ease-in-out duration-300" type="submit" onClick={getInstagramData}>Enter</button>
           </div>
         </div>
 
@@ -143,7 +142,6 @@ function App() {
             }} />
           <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 text-center mb-1 dark:text-white">{tiktokData === null ? 0 : tiktokData.data.stats.followerCount}</h1>
           <h2 className="uppercase text-md text-center dark:text-slate-300">Followers</h2>
-          <button className="text-xl font-bold text-white h-10 bg-slate-400 rounded-lg md:hidden hover:opacity-50 transition-opacity ease-in-out duration-300" type="submit" onClick={getTiktokData}>Enter</button>
         </div>
 
         <div className="flex flex-col bg-slate-200 shadow-lg p-4 rounded-lg border-t-8 border-red-600 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors duration-300 ease-in-out">
@@ -159,7 +157,6 @@ function App() {
             }} />
           <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 text-center mb-1 dark:text-white">{youtubeData == null ? 0 : youtubeData.items[0].statistics.subscriberCount}</h1>
           <h2 className="uppercase text-md text-center dark:text-slate-300">Subscribers</h2>
-          <button className="text-xl font-bold text-white h-10 bg-slate-400 rounded-lg md:hidden hover:opacity-50 transition-opacity ease-in-out duration-300" type="submit" onClick={getYoutubeData}>Enter</button>
         </div>
 
         <div className="flex flex-col bg-slate-200 shadow-lg p-4 rounded-lg border-t-8 border-blue-400 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors duration-300 ease-in-out">
@@ -175,7 +172,6 @@ function App() {
             }} />
           <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 text-center mb-1 dark:text-white">{twitterData == null ? 0 : twitterData.follower_count}</h1>
           <h2 className="uppercase text-md text-center dark:text-slate-300">Followers</h2>
-          <button className="text-xl font-bold text-white h-10 bg-slate-400 rounded-lg md:hidden hover:opacity-50 transition-opacity ease-in-out duration-300" type="submit" onClick={getTwitterData}>Enter</button>
         </div>
 
         <div className="flex flex-col bg-slate-200 shadow-lg p-4 rounded-lg border-t-8 border-blue-500 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors duration-300 ease-in-out">
@@ -191,7 +187,6 @@ function App() {
             }} />
           <h1 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-slate-900 text-center mb-1 dark:text-white">{facebokData == null ? 0 : facebokData.data.usersCount}</h1>
           <h2 className="uppercase text-md text-center dark:text-slate-300">Followers</h2>
-          <button className="text-xl font-bold text-white h-10 bg-slate-400 rounded-lg md:hidden hover:opacity-50 transition-opacity ease-in-out duration-300" type="submit" onClick={getFacebookData}>Enter</button>
         </div>
       </div>
       <h1 className="text-4xl font-bold text-slate-600 mt-20 mb-6 dark:text-slate-400">Additional Information</h1>
