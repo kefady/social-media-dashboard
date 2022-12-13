@@ -6,7 +6,7 @@ import facebook from './../images/facebook.svg'
 
 function ExtraInfo({ instagramData, tiktokData, youtubeData, twitterData, facebookData }) {
 	return (
-		<>
+		<div className="pb-4">
 			<div>
 				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 mt-10 max-w-sm sm:max-w-none mx-auto">
 					<div className="flex flex-col bg-slate-200 shadow-lg p-4 rounded-md dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors duration-300 ease-in-out">
@@ -110,7 +110,7 @@ function ExtraInfo({ instagramData, tiktokData, youtubeData, twitterData, facebo
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
 

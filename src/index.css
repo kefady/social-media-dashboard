@@ -12,7 +12,9 @@ body {
 
 .dark-bg {
   @apply bg-slate-900;
-  height: 100%;
+  @apply bottom-0;
+  @apply h-full;
+  @apply xl:h-screen;
 }
 
 .toggle-switch {
