@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/social-media-dashboard/static/css/main.09ca4300.css",
-    "main.js": "/social-media-dashboard/static/js/main.f13eb977.js",
+    "main.css": "/social-media-dashboard/static/css/main.610a6803.css",
+    "main.js": "/social-media-dashboard/static/js/main.1a55fd22.js",
     "static/media/instagram.svg": "/social-media-dashboard/static/media/instagram.217b6a788cbaed3eba5b93e8e6d2f708.svg",
     "static/media/twitter.svg": "/social-media-dashboard/static/media/twitter.5229b35abaadb7c1d8cc8b6a417cc403.svg",
     "static/media/youtube.svg": "/social-media-dashboard/static/media/youtube.9e6e68bec2c1f5e29b3b54dc02f54c47.svg",
     "static/media/facebook.svg": "/social-media-dashboard/static/media/facebook.ec8abc665f3ed075781fc7ffe237141f.svg",
     "index.html": "/social-media-dashboard/index.html",
     "static/media/tiktok.svg": "/social-media-dashboard/static/media/tiktok.e67ec2d8f33d0d10bc7c30114d491c2a.svg",
-    "main.09ca4300.css.map": "/social-media-dashboard/static/css/main.09ca4300.css.map",
-    "main.f13eb977.js.map": "/social-media-dashboard/static/js/main.f13eb977.js.map"
+    "main.610a6803.css.map": "/social-media-dashboard/static/css/main.610a6803.css.map",
+    "main.1a55fd22.js.map": "/social-media-dashboard/static/js/main.1a55fd22.js.map"
   },
   "entrypoints": [
-    "static/css/main.09ca4300.css",
-    "static/js/main.f13eb977.js"
+    "static/css/main.610a6803.css",
+    "static/js/main.1a55fd22.js"
   ]
 }
